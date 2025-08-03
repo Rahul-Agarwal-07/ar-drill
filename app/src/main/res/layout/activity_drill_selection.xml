@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?android:attr/colorBackground">
+
+    <TextView
+        android:id="@+id/tv_select_drill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Drill"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_drills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/spinner_bg"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="16dp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_drill"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                android:contentDescription="Drill Image" />
+
+            <TextView
+                android:id="@+id/tv_drill_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drill description appears here"
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginTop="12dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start_drill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Drill"
+        android:textSize="18sp"
+        android:paddingVertical="12dp"
+        app:cornerRadius="12dp"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
