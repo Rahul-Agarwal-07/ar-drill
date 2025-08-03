@@ -25,7 +25,7 @@ This is an Android app built using **Java/Kotlin + ARCore** that allows users to
 
 | Drill Selection | AR View |
 |----------------|---------|
-| ![Select](docs/screenshot1.png) | ![AR](docs/screenshot2.png) |
+| ![Select](app/ar-ss-2.jpg) | ![AR](docs/screenshot2.png) |
 
 ## 🛠️ Getting Started
 
