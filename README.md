@@ -21,11 +21,9 @@ This is an Android app built using **Java/Kotlin + ARCore** that allows users to
 
 ## 📸 Screenshots
 
-> *(Add actual screenshots or screen recordings here)*
-
 | Drill Selection | AR View |
 |----------------|---------|
-| ![Select](app/ar-ss-2.jpg) | ![AR](docs/screenshot2.png) |
+| ![Select](app/ar-ss-2.jpg) | ![AR](app/ar-ss-1.jpg) |
 
 ## 🛠️ Getting Started
 
